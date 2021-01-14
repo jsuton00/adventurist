@@ -1,8 +1,12 @@
 import React from 'react';
 import './styles/app.css';
 
-function App() {
-	return <div id="app" className="app"></div>;
-}
+const App = () => {
+	return (
+		<div id="app" className="app">
+			App
+		</div>
+	);
+};
 
 export default App;
